@@ -25,7 +25,6 @@ Naoetu GPSの座標をarduinoから発信する
 
 |プロパティ名|値|
 |:--|:--:|
-|align left|align right|
 |Flash Size|4M(3MSPIFFS)|
 |ResetMethod|ck|
 |CPU Frequency|80MHz|
