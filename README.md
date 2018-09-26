@@ -5,6 +5,14 @@ Naoetu GPSの座標をarduinoから発信する
 ソースは、Arduino Mega専用  
 ハードウェアシリアルの２以降を使用とデジタルピンの20番台を使用  
 
+### ◆ソース構成
+```
+Develop  
+ └ WifiGps  
+    └ wifigps ... Arduinoへインストールするソース  
+    └ wifigps.wifi ..Wifi(ESP-WROOM-02)へインストールするソース  
+```
+
 ### ◆機器構成
 ・マイコン ...[Arduino Mega(ハードウェアシリアルを贅沢に複数使用)](https://amzn.to/2NE04Hv)  
 ・Wifi ...[ESP-WROOM-02](https://amzn.to/2R0oOHR)  
