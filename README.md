@@ -9,12 +9,13 @@ Naoetu GPSの座標をarduinoから発信する
 ・LCD ...[IIC/I2C LCD2004](https://amzn.to/2zwlkGA)  
 
 ### どんな動きか
-1. マイコンでGPSからの座標を取得し、jsonに整形
-
-  整形json：{lng:9999.999,lat:9999.999};;
-  ※最後のセミコロン(;)は、終端文字列
-
-1. 整形された座標をwifiで取得し、サーバへPOSTする。
+1.マイコンでGPSからの座標を取得し、jsonに整形  
+  
+  整形json：{lng:9999.999,lat:9999.999};;  
+  ※最後のセミコロン(;)は、終端文字列  
+  
+2.整形された座標をwifiで取得し、サーバへPOST  
+※wifiの[ESP-WROOM-02](https://amzn.to/2R0oOHR)は、Arduinoとして動作する。Arduinoにwifi機能が付いたスグレモノ！！  
 
 ### ◆プログラムインストール(Arduino)
 1. USBでArduinoとPCで接続
