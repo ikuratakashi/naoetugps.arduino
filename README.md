@@ -1,6 +1,9 @@
 # Naoetu GPS.arduino
 
-Naoetu GPSの座標をarduinoから発信する
+Naoetu GPSの座標をarduinoから発信する  
+
+ソースは、Arduino Mega専用  
+ハードウェアシリアルの２以降を使用とデジタルピンの20番台を使用  
 
 ### ◆機器構成
 ・マイコン ...[Arduino Mega(ハードウェアシリアルを使用)](https://amzn.to/2NE04Hv)  
@@ -8,7 +11,7 @@ Naoetu GPSの座標をarduinoから発信する
 ・GPS ...[GY-GPS6MV2](https://amzn.to/2R1m3X0)  
 ・LCD ...[IIC/I2C LCD2004](https://amzn.to/2zwlkGA)  
 
-### どんな動きか
+### ◆どんな動きか
 1.マイコンでGPSからの座標を取得
     
 2.受信したGPSの座標はLCDへ表示  
