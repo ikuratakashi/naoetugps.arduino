@@ -24,6 +24,8 @@ Naoetu GPSの座標をarduinoから発信する
 4.一定期間毎にwifiへjson形式の座標を送信  
 
 5.json形式の座標をwifiで取得し、サーバへPOST  
+ポストする値は終端文字(;;)がある最後の情報１件のみ。
+送信の際にwifiで受信したバッファをクリアしている。
 
 ※wifiの[ESP-WROOM-02](https://amzn.to/2R0oOHR)は、Arduinoとして動作する。Arduinoにwifi機能が付いたスグレモノ！！  
 
