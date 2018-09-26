@@ -6,7 +6,7 @@ Naoetu GPSの座標をarduinoから発信する
 ハードウェアシリアルの２以降を使用とデジタルピンの20番台を使用  
 
 ### ◆機器構成
-・マイコン ...[Arduino Mega(ハードウェアシリアルを使用)](https://amzn.to/2NE04Hv)  
+・マイコン ...[Arduino Mega(ハードウェアシリアルを贅沢に複数使用)](https://amzn.to/2NE04Hv)  
 ・Wifi ...[ESP-WROOM-02](https://amzn.to/2R0oOHR)  
 ・GPS ...[GY-GPS6MV2](https://amzn.to/2R1m3X0)  
 ・LCD ...[IIC/I2C LCD2004](https://amzn.to/2zwlkGA)  
