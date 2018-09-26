@@ -53,11 +53,10 @@ Naoetu GPSの座標をarduinoから発信する
 
 #### wifigps.wifi.ini.h
 このファイルには、wifiのパスワード等を記載する為、gitにはコミットしていません。
-各自用意して下さいね。
+各自用意して下さいね。　　
 
-/wifigps.wifi
- └ wifigps.wifi.ini.h
-
+/wifigps.wifi  
+ └ wifigps.wifi.ini.h  
 ```
 #ifndef WIFIGPS_WIFI_INI
 #define WIFIGPS_WIFI_INI
